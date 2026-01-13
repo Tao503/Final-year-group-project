@@ -8,7 +8,7 @@ Members
 Ummusulaim Usman 20221020 (Group Leader)
 Taofeek Ayanwale 20220372
 Adil Ahmad-Rufai 20220860
-Mahmud Rufai Sule 20221928
+Mahmood Rufai Sule 20221928
 Ugavah Okeoghene  20220806
 Abdulmuheed Ataba Abdulazeez 20220519
 
