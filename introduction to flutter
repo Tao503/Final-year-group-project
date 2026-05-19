@@ -1,0 +1,61 @@
+What is Dart?
+Dart is a modern, high-level programming language developed by Google. It is designed to be:
+
+Fast – optimized for high performance
+
+Productive – simple syntax and strong tooling
+
+Cross-platform – used for mobile, web, desktop, and server apps
+
+Key features of Dart:
+
+Object-Oriented (everything is an object)
+
+Strongly typed (helps catch errors early)
+
+Supports async/await for asynchronous programming
+
+Can be compiled to native machine code or JavaScript
+
+Dart is commonly used to build applications with smooth user interfaces and good performance.
+
+What is Flutter?
+
+Flutter is a UI framework (also by Google) used to build cross-platform applications from a single codebase. With Flutter, you can create:
+
+Android apps
+
+iOS apps
+
+Web apps
+
+Desktop apps (Windows, macOS, Linux)
+
+Flutter focuses on building beautiful, responsive user interfaces using widgets.
+
+Relationship Between Dart and Flutter
+
+The relationship between Dart and Flutter is very close:
+
+Flutter uses Dart as its programming language
+
+All Flutter apps are written entirely in Dart
+
+Dart provides the logic, while Flutter provides the UI framework
+
+In simple terms:
+
+Dart = the language
+Flutter = the framework built with Dart
+
+Why Flutter Uses Dart
+
+Flutter uses Dart because:
+
+High performance – Dart compiles to native code (no bridge like some other frameworks)
+
+Fast development – features like Hot Reload allow instant UI updates
+
+Easy UI creation – Dart works well with Flutter’s widget-based design
+
+Single codebase – one Dart codebase runs on multiple platforms

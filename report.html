@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Report Item - Back2U</title>
+  <link rel="stylesheet" href="report.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">Back2U</div>
+    <ul>
+      <li><a href="file:///C:/Users/taoff/OneDrive/Desktop/works/final%20year%20project/home.html#">Home</a></li>
+      <li><a href="report.html" class="active">Report Item</a></li>
+      <li><a href="listings.html">View Listings</a></li>
+    </ul>
+    <div class="right-controls">
+      <label class="switch">
+        <input type="checkbox" id="themeToggle">
+        <span class="slider"></span>
+      </label>
+      <div class="user-profile">TAO</div>
+    </div>
+  </nav>
+
+  <!-- Report Form -->
+  <div class="form-container">
+    <h2>Report Item</h2>
+    <form>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="itemName">Item Name</label>
+          <input type="text" id="itemName" required>
+        </div>
+        <div class="form-group">
+          <label for="category">Category</label>
+          <select id="category">
+            <option>Electronics</option>
+            <option>Clothing</option>
+            <option>Accessories</option>
+            <option>Documents</option>
+            <option>Other</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group full">
+        <label for="description">Description</label>
+        <textarea id="description" rows="3" placeholder="Give the description of the product Found/Lost..."></textarea>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="datetime">Date & Time</label>
+          <input type="datetime-local" id="datetime">
+        </div>
+        <div class="form-group">
+          <label for="location">Location (Where Lost/Found)</label>
+          <input type="text" id="location">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="status">Status</label>
+          <select id="status">
+            <option>-- Select Status --</option>
+            <option>Lost</option>
+            <option>Found</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="contact">Contact Information</label>
+          <input type="text" id="contact" placeholder="Email or phone number">
+        </div>
+      </div>
+
+      <div class="form-group full">
+        <label for="image">Upload Image (if available)</label>
+        <input type="file" id="image">
+      </div>
+
+      <button type="submit" class="submit-btn">Report Item</button>
+    </form>
+  </div>
+
+  <script src="report.js"></script>
+</body>
+</html>
